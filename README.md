@@ -169,7 +169,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 
 - [x] [商品维度表](dim/dim_sku_full.sql)
-
+- [x] [优惠券维度表](dim/dim_coupon_full.sql)
 
 
 ----------------

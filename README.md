@@ -173,7 +173,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [x] [活动维度表](dim/dim_activity_full.sql)
 - [x] [地区维度表](dim/dim_province_full.sql)
 - [x] [日期维度表](dim/dim_date.sql)
-
+- [ ] [用户维度表](dim/dim_user_zip.sql)
 
 ----------------
 

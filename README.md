@@ -155,8 +155,6 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [x] [活动信息表](ods/full/ods_activity_info_full.sql)
 
 
-
-
 ## [1.3 增量表](ods/inc)
 
 - [ ] [](ods/full/)
@@ -179,6 +177,30 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 # [3 明细数据层](dwd)
 
+## [交易域](dwd/trade)
+
+- [x] [加购事务事实表](dwd/trade/dwd_trade_cart_add_inc.sql)
+
+
+
+## [工具域](dwd/tool)
+
+
+
+
+## [互动域](dwd/interaction)
+
+
+
+
+## [流量域](dwd/traffic)
+
+
+
+
+
+## [用户域](dwd/user)
+
 
 
 
@@ -196,7 +218,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 ----------------
 
-# [数据应用层](aps)
+# [5 数据应用层](ads)
 
 
 

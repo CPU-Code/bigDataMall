@@ -25,7 +25,8 @@ CREATE EXTERNAL TABLE dim_user_zip
 
 
 -- 首日装载
-
+insert overwrite table dim_user_zip
+    partition (dt = '9999-12-31')
 select data.id,
        data.login_name,
        data.nick_name,
@@ -46,83 +47,91 @@ where dt = '2020-06-14'
 
 -- 每日装载
 
-with tmp as
-         select old.id           old_id,
-                old.login_name   old_login_name,
-                old.nick_name    old_nick_name,
-                old.name         old_name,
-                old.phone_num    old_phone_num,
-                old.email        old_email,
-                old.user_level   old_user_level,
-                old.birthday     old_birthday,
-                old.gender       old_gender,
-                old.create_time  old_create_time,
-                old.operate_time old_operate_time,
-                old.start_date   old_start_date,
-                old.end_date     old_end_date,
-                new.id           new_id,
-                new.login_name   new_login_name,
-                new.nick_name    new_nick_name,
-                new.name         new_name,
-                new.phone_num    new_phone_num,
-                new.email        new_email,
-                new.user_level   new_user_level,
-                new.birthday     new_birthday,
-                new.gender       new_gender,
-                new.create_time  new_create_time,
-                new.operate_time new_operate_time,
-                new.start_date   new_start_date,
-                new.end_date     new_end_date
-         from (
-                  select id,
-                         login_name,
-                         nick_name,
-                         name,
-                         phone_num,
-                         email,
-                         user_level,
-                         birthday,
-                         gender,
-                         create_time,
-                         operate_time,
-                         start_date,
-                         end_date
-                  from dim_user_zip
-                  where dt = '9999-12-31'
-              ) old
-                  full outer join(
+with tmp as (
+    select old.id           old_id,
+           old.login_name   old_login_name,
+           old.nick_name    old_nick_name,
+           old.name         old_name,
+           old.phone_num    old_phone_num,
+           old.email        old_email,
+           old.user_level   old_user_level,
+           old.birthday     old_birthday,
+           old.gender       old_gender,
+           old.create_time  old_create_time,
+           old.operate_time old_operate_time,
+           old.start_date   old_start_date,
+           old.end_date     old_end_date,
+           new.id           new_id,
+           new.login_name   new_login_name,
+           new.nick_name    new_nick_name,
+           new.name         new_name,
+           new.phone_num    new_phone_num,
+           new.email        new_email,
+           new.user_level   new_user_level,
+           new.birthday     new_birthday,
+           new.gender       new_gender,
+           new.create_time  new_create_time,
+           new.operate_time new_operate_time,
+           new.start_date   new_start_date,
+           new.end_date     new_end_date
+    from (
              select id,
                     login_name,
                     nick_name,
-                    md5(name)      name,
-                    md5(phone_num) phone_num,
-                    md5(email)     email,
+                    name,
+                    phone_num,
+                    email,
                     user_level,
                     birthday,
                     gender,
                     create_time,
                     operate_time,
-                    '2020-06-15'   start_date,
-                    '9999-12-31'   end_date
-             from (select data.id,
-                          data.login_name,
-                          data.nick_name,
-                          data.name,
-                          data.phone_num,
-                          data.email,
-                          data.user_level,
-                          data.birthday,
-                          data.gender,
-                          data.create_time,
-                          data.operate_time,
-                          row_number() over (partition by data.id order by ts desc) rn
-                   from ods_user_info_inc
-                   where dt = '2020-06-15'
-                  ) t1
-             where rn = 1
-         ) new
-                                 on old.id = new.id
-         )
+                    start_date,
+                    end_date
+             from dim_user_zip
+             where dt = '9999-12-31'
+         ) old
+             full outer join(
+        select id,
+               login_name,
+               nick_name,
+               md5(name)      name,
+               md5(phone_num) phone_num,
+               md5(email)     email,
+               user_level,
+               birthday,
+               gender,
+               create_time,
+               operate_time,
+               '2020-06-15'   start_date,
+               '9999-12-31'   end_date
+        from (select data.id,
+                     data.login_name,
+                     data.nick_name,
+                     data.name,
+                     data.phone_num,
+                     data.email,
+                     data.user_level,
+                     data.birthday,
+                     data.gender,
+                     data.create_time,
+                     data.operate_time,
+                     row_number() over (partition by data.id order by ts desc) rn
+              from ods_user_info_inc
+              where dt = '2020-06-15'
+             ) t1
+        where rn = 1
+    ) new
+                            on old.id = new.id
+)
+insert
+overwrite
+table
+dim_user_zip
+partition
+(
+dt
+)
 select if(new_id is not null, new_id, old_id),
        if(new_id is not null, new_login_name, old_login_name),
        if(new_id is not null, new_nick_name, old_nick_name),
@@ -156,4 +165,26 @@ select old_id,
 from tmp
 where old_id is not null
   and new_id is not null;
+
+
+-- 查询 用户维度表
+
+
+select id,
+       login_name,
+       nick_name,
+       name,
+       phone_num,
+       email,
+       user_level,
+       birthday,
+       gender,
+       create_time,
+       operate_time,
+       start_date,
+       end_date,
+       dt
+from dim_user_zip
+where dt = '9999-12-31'
+
 

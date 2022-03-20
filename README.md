@@ -157,7 +157,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 ## [1.3 增量表](ods/inc)
 
-- [ ] [](ods/full/)
+- [ ] [购物车表](ods/inc/ods_cart_info_inc.sql)
 
 
 

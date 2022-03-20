@@ -180,7 +180,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 ## [交易域](dwd/trade)
 
 - [x] [加购事务事实表](dwd/trade/dwd_trade_cart_add_inc.sql)
-
+- [x] [下单事务事实表](dwd/trade/dwd_trade_order_detail_inc.sql)
 
 
 ## [工具域](dwd/tool)

@@ -185,7 +185,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [x] [支付成功事务事实表](dwd/trade/dwd_trade_pay_detail_suc_inc.sql)
 - [x] [退单事务事实表](dwd/trade/dwd_trade_order_refund_inc.sql)
 - [x] [退款成功事务事实表](dwd/trade/dwd_trade_refund_pay_suc_inc.sql)
-
+- [x] [购物车周期快照事实表](dwd/trade/dwd_trade_cart_full.sql)
 
 ## [工具域](dwd/tool)
 

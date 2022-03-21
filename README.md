@@ -192,7 +192,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 - [x] [优惠券领取事务事实表](dwd/tool/dwd_tool_coupon_get_inc.sql)
 - [x] [优惠券使用下单事务事实表](dwd/tool/dwd_tool_coupon_order_inc.sql)
-
+- [x] [优惠券使用支付事务事实表](dwd/tool/dwd_tool_coupon_pay_inc.sql)
 
 ## [互动域](dwd/interaction)
 

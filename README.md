@@ -196,6 +196,8 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 ## [互动域](dwd/interaction)
 
+- [x] [收藏商品事务事实表](dwd/interaction/dwd_interaction_favor_add_inc.sql)
+
 
 
 

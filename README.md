@@ -228,8 +228,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 ## [流量域](dwd/traffic)
 
-
-- [ ] [页面浏览事务事实表]()
+- [x] [页面浏览事务事实表](dwd/traffic/dwd_traffic_page_view_inc.sql)
 - [ ] [启动事务事实表]()
 - [ ] [动作事务事实表]()
 - [ ] [曝光事务事实表]()

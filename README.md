@@ -237,7 +237,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 ## [用户域](dwd/user)
 
-- [ ] [用户注册事务事实表]()
+- [ ] [用户注册事务事实表](dwd/user/dwd_user_register_inc.sql)
 - [ ] [用户登录事务事实表]()
 
 

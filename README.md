@@ -231,7 +231,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [x] [页面浏览事务事实表](dwd/traffic/dwd_traffic_page_view_inc.sql)
 - [x] [启动事务事实表](dwd/traffic/dwd_traffic_start_inc.sql)
 - [ ] [动作事务事实表](dwd/traffic/dwd_traffic_action_inc.sql)
-- [ ] [曝光事务事实表]()
+- [ ] [曝光事务事实表](dwd/traffic/dwd_traffic_display_inc.sql)
 - [ ] [错误事务事实表]()
 
 

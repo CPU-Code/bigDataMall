@@ -1,5 +1,3 @@
-
-
 -- 删除表
 
 DROP TABLE IF EXISTS ods_log_inc;
@@ -28,7 +26,9 @@ CREATE EXTERNAL TABLE ods_log_inc
 
 --- 转载数据
 
-load data inpath '/origin_data/gmall/log/topic_log/2020-06-14' into table ods_log_inc partition (dt = '2020-06-14');
+load data inpath '/origin_data/gmall/log/topic_log/2020-06-14'
+    into table ods_log_inc
+    partition (dt = '2020-06-14');
 
 
 --- 查询数据

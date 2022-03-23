@@ -19,8 +19,10 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 |   |     Resourcemanager              |     √    |         √      |       √    |
 |  |       |               |        |               |
 | Zookeeper         | Zookeeper Server | √             | √             | √             |
-| Flume(采集日志)       | Flume            | √             | √             |               |
-| Flume（消费Kafka）    | Flume          |              |              | √     |
+|  |       |               |        |               |
+| Flume     | 采集日志            | √             | √             |               |
+|    | 消费Kafka          |              |              | √     |
+|  |       |               |        |               |
 | Kafka             | Kafka            | √             | √             | √            |
 | Hive              | Hive             | √             |               |               |
 | MySQL             | MySQL            |             |         √      |               |
@@ -291,15 +293,15 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 
 
-## [流量主题]()
+## [流量主题](ads/traffic)
 
 
-- [ ] [各渠道流量统计]()
-- [ ] [路径分析]()
+- [ ] [各渠道流量统计](ads/traffic/ads_traffic_stats_by_channel.sql)
+- [ ] [路径分析](ads/traffic/ads_page_path.sql)
 
 
 
-## [用户主题]()
+## [用户主题](ads/user)
 
 
 - [ ] [用户变动统计]()

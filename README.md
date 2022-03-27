@@ -167,7 +167,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [ ] [优惠券信息表](ods/full/ods_coupon_info_full.sql)
 - [ ] [商品平台属性表](ods/full/ods_sku_attr_value_full.sql)
 - [ ] [商品表](ods/full/ods_sku_info_full.sql)
-- [ ] [商品销售属性值表](ods/full/ods_sku_sale_attr_value_full.sql0)
+- [ ] [商品销售属性值表](ods/full/ods_sku_sale_attr_value_full.sql)
 - [ ] [SPU表](ods/full/ods_spu_info_full.sql)
 
 

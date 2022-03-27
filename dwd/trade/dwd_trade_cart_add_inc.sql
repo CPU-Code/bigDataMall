@@ -62,6 +62,7 @@ from (
 
 
 -- 每日装载
+
 insert overwrite table dwd_trade_cart_add_inc partition(dt = '2020-06-15')
 select
     id,

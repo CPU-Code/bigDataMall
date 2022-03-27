@@ -155,37 +155,37 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 ## [1.2 全量表](ods/full)
 
 - [x] [活动信息表](ods/full/ods_activity_info_full.sql)
-- [ ] [活动规则表]()
-- [ ] [一级品类表]()
-- [ ] [二级品类表]()
-- [ ] [三级品类表]()
-- [ ] [编码字典表]()
-- [ ] [省份表]()
-- [ ] [地区表]()
-- [ ] [品牌表]()
-- [ ] [购物车表]()
-- [ ] [优惠券信息表]()
-- [ ] [商品平台属性表]()
-- [ ] [商品表]()
-- [ ] [商品销售属性值表]()
-- [ ] [SPU表]()
+- [ ] [活动规则表](ods/full/ods_activity_rule_full.sql)
+- [ ] [一级品类表](ods/full/ods_base_category1_full.sql)
+- [ ] [二级品类表](ods/full/ods_base_category2_full.sql)
+- [ ] [三级品类表](ods/full/ods_base_category3_full.sql)
+- [ ] [编码字典表](ods/full/ods_base_dic_full.sql)
+- [ ] [省份表](ods/full/ods_base_province_full.sql)
+- [ ] [地区表](ods/full/ods_base_region_full.sql)
+- [ ] [品牌表](ods/full/ods_base_trademark_full.sql)
+- [ ] [购物车表](ods/full/ods_cart_info_full.sql)
+- [ ] [优惠券信息表](ods/full/ods_coupon_info_full.sql)
+- [ ] [商品平台属性表](ods/full/ods_sku_attr_value_full.sql)
+- [ ] [商品表](ods/full/ods_sku_info_full.sql)
+- [ ] [商品销售属性值表](ods/full/ods_sku_sale_attr_value_full.sql0)
+- [ ] [SPU表](ods/full/ods_spu_info_full.sql)
 
 
 ## [1.3 增量表](ods/inc)
 
 - [ ] [购物车表](ods/inc/ods_cart_info_inc.sql)
-- [ ] [评论表]()
-- [ ] [优惠券领用表]()
-- [ ] [收藏表]()
-- [ ] [订单明细表]()
-- [ ] [订单明细活动关联表]()
-- [ ] [订单明细优惠券关联表]()
-- [ ] [订单表]()
-- [ ] [退单表]()
-- [ ] [订单状态流水表]()
-- [ ] [支付表]()
-- [ ] [退款表]()
-- [ ] [用户表]()
+- [ ] [评论表](ods/inc/ods_comment_info_inc.sql)
+- [ ] [优惠券领用表](ods/inc/ods_coupon_use_inc.sql)
+- [ ] [收藏表](ods/inc/ods_favor_info_inc.sql)
+- [ ] [订单明细表](ods/inc/ods_order_detail_inc.sql)
+- [ ] [订单明细活动关联表](ods/inc/ods_order_detail_activity_inc.sql)
+- [ ] [订单明细优惠券关联表](ods/inc/ods_order_detail_coupon_inc.sql)
+- [ ] [订单表](ods/inc/ods_order_info_inc.sql)
+- [ ] [退单表](ods/inc/ods_order_refund_info_inc.sql)
+- [ ] [订单状态流水表](ods/inc/ods_order_status_log_inc.sql)
+- [ ] [支付表](ods/inc/ods_payment_info_inc.sql)
+- [ ] [退款表](ods/inc/ods_refund_payment_inc.sql)
+- [ ] [用户表](ods/inc/ods_user_info_inc.sql)
 
 
 
@@ -248,43 +248,43 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 # [4 汇总数据层](dws)
 
 
-## [最近1日汇总表]()
+## [最近1日汇总表](dws/1d)
 
 
-- [ ] [交易域用户商品粒度订单最近1日汇总表]()
-- [ ] [交易域用户商品粒度退单最近1日汇总表]()
-- [ ] [交易域用户粒度订单最近1日汇总表]()
-- [ ] [交易域用户粒度加购最近1日汇总表]()
-- [ ] [交易域用户粒度支付最近1日汇总表]()
-- [ ] [交易域省份粒度订单最近1日汇总表]()
-- [ ] [交易域用户粒度退单最近1日汇总表]()
+- [ ] [交易域用户商品粒度订单最近1日汇总表](dws/1d/trade/dws_trade_user_sku_order_1d.sql)
+- [ ] [交易域用户商品粒度退单最近1日汇总表](dws/1d/trade/dws_trade_user_sku_order_refund_1d.sql)
+- [ ] [交易域用户粒度订单最近1日汇总表](dws/1d/trade/dws_trade_user_order_1d.sql)
+- [ ] [交易域用户粒度加购最近1日汇总表](dws/1d/trade/dws_trade_user_cart_add_1d.sql)
+- [ ] [交易域用户粒度支付最近1日汇总表](dws/1d/trade/dws_trade_user_payment_1d.sql)
+- [ ] [交易域省份粒度订单最近1日汇总表](dws/1d/trade/dws_trade_province_order_1d.sql)
+- [ ] [交易域用户粒度退单最近1日汇总表](dws/1d/trade/dws_trade_user_order_refund_1d.sql)
 
-- [ ] [流量域会话粒度页面浏览最近1日汇总表]()
-- [ ] [流量域访客页面粒度页面浏览最近1日汇总表]()
-
-
-## [最近n日汇总表]()
+- [ ] [流量域会话粒度页面浏览最近1日汇总表](dws/1d/traffic/dws_traffic_session_page_view_1d.sql)
+- [ ] [流量域访客页面粒度页面浏览最近1日汇总表](dws/1d/traffic/dws_traffic_page_visitor_page_view_1d.sql)
 
 
-- [ ] [交易域用户商品粒度订单最近n日汇总表]()
-- [ ] [交易域用户商品粒度退单最近n日汇总表]()
-- [ ] [交易域用户粒度订单最近n日汇总表]()
-- [ ] [交易域用户粒度加购最近n日汇总表]()
-- [ ] [交易域用户粒度支付最近n日汇总表]()
-- [ ] [交易域省份粒度订单最近n日汇总表]()
-- [ ] [交易域优惠券粒度订单最近n日汇总表]()
-- [ ] [交易域活动粒度订单最近n日汇总表]()
-- [ ] [交易域用户粒度退单最近n日汇总表]()
+## [最近n日汇总表](dws/nd)
+
+
+- [ ] [交易域用户商品粒度订单最近n日汇总表](dws/nd/trade/dws_trade_user_sku_order_nd.sql)
+- [ ] [交易域用户商品粒度退单最近n日汇总表](dws/nd/trade/dws_trade_user_sku_order_refund_nd.sql)
+- [ ] [交易域用户粒度订单最近n日汇总表](dws/nd/trade/dws_trade_user_order_nd.sql)
+- [ ] [交易域用户粒度加购最近n日汇总表](dws/nd/trade/dws_trade_user_cart_add_nd.sql)
+- [ ] [交易域用户粒度支付最近n日汇总表](dws/nd/trade/dws_trade_user_payment_nd.sql)
+- [ ] [交易域省份粒度订单最近n日汇总表](dws/nd/trade/dws_trade_province_order_nd.sql)
+- [ ] [交易域优惠券粒度订单最近n日汇总表](dws/nd/trade/dws_trade_coupon_order_nd.sql)
+- [ ] [交易域活动粒度订单最近n日汇总表](dws/nd/trade/dws_trade_activity_order_nd.sql)
+- [ ] [交易域用户粒度退单最近n日汇总表](dws/nd/trade/dws_trade_user_order_refund_nd.sql)
   
-- [ ] [流量域访客页面粒度页面浏览最近n日汇总表]()
+- [ ] [流量域访客页面粒度页面浏览最近n日汇总表](dws/nd/traffic/dws_traffic_page_visitor_page_view_nd.sql)
 
 
-## [历史至今汇总表]()
+## [历史至今汇总表](dws/td)
 
-- [ ] [交易域用户粒度订单历史至今汇总表]()
-- [ ] [交易域用户粒度支付历史至今汇总表]()
+- [ ] [交易域用户粒度订单历史至今汇总表](dws/td/trade/dws_trade_user_order_td.sql)
+- [ ] [交易域用户粒度支付历史至今汇总表](dws/td/trade/dws_trade_user_payment_td.sql)
 
-- [ ] [用户域用户粒度登录历史至今汇总表]()
+- [ ] [用户域用户粒度登录历史至今汇总表](dws/td/user/dws_user_user_login_td.sql)
 
 
 ----------------
@@ -304,41 +304,41 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 ## [用户主题](ads/user)
 
 
-- [ ] [用户变动统计]()
-- [ ] [用户留存率]()
-- [ ] [用户新增活跃统计]()
-- [ ] [用户行为漏斗分析]()
-- [ ] [新增交易用户统计]()
+- [ ] [用户变动统计](ads/user/ads_user_change.sql)
+- [ ] [用户留存率](ads/user/ads_user_retention.sql)
+- [ ] [用户新增活跃统计](ads/user/ads_user_stats.sql)
+- [ ] [用户行为漏斗分析](ads/user/ads_user_action.sql)
+- [ ] [新增交易用户统计](ads/user/ads_new_buyer_stats.sql)
 
 
 
-## [商品主题]()
+## [商品主题](ads/sku)
 
 
-- [ ] [最近7/30日各品牌复购率]()
-- [ ] [各品牌商品交易统计]()
-- [ ] [各品类商品交易统计]()
-- [ ] [各分类商品购物车存量Top10]()
-
-
-
-## [交易主题]()
-
-
-- [ ] [交易综合统计]()
-- [ ] [各省份交易统计]()
+- [ ] [最近7/30日各品牌复购率](ads/sku/ads_repeat_purchase_by_tm.sql)
+- [ ] [各品牌商品交易统计](ads/sku/ads_trade_stats_by_tm.sql)
+- [ ] [各品类商品交易统计](ads/sku/ads_trade_stats_by_cate.sql)
+- [ ] [各分类商品购物车存量Top10](ads/sku/ads_sku_cart_num_top3_by_cate.sql)
 
 
 
-## [优惠劵主题]()
-
-- [ ] [最近30天发布的优惠券的补贴率]()
+## [交易主题](ads/trade)
 
 
+- [ ] [交易综合统计](ads/trade/ads_trade_stats.sql)
+- [ ] [各省份交易统计](ads/trade/ads_order_by_province.sql)
 
-## [活动主题]()
 
-- [ ] [最近30天发布的活动的补贴率]()
+
+## [优惠劵主题](ads/coupon)
+
+- [ ] [最近30天发布的优惠券的补贴率](ads/coupon/ads_coupon_stats.sql)
+
+
+
+## [活动主题](ads/activity)
+
+- [ ] [最近30天发布的活动的补贴率](ads/activity/ads_activity_stats.sql)
 
 
 

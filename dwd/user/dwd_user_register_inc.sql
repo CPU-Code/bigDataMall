@@ -118,6 +118,7 @@ from (
 
 show partitions dwd_user_register_inc;
 
+
 -- 查询 用户注册事务事实表
 
 select user_id,

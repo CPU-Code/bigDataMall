@@ -277,6 +277,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [ ] [交易域优惠券粒度订单最近n日汇总表](dws/nd/trade/dws_trade_coupon_order_nd.sql)
 - [ ] [交易域活动粒度订单最近n日汇总表](dws/nd/trade/dws_trade_activity_order_nd.sql)
   
+
 - [ ] [流量域访客页面粒度页面浏览最近n日汇总表](dws/nd/traffic/dws_traffic_page_visitor_page_view_nd.sql)
 
 
@@ -284,6 +285,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 - [ ] [交易域用户粒度订单历史至今汇总表](dws/td/trade/dws_trade_user_order_td.sql)
 - [ ] [交易域用户粒度支付历史至今汇总表](dws/td/trade/dws_trade_user_payment_td.sql)
+
 
 - [ ] [用户域用户粒度登录历史至今汇总表](dws/td/user/dws_user_user_login_td.sql)
 

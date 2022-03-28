@@ -256,8 +256,9 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [ ] [交易域用户粒度订单最近1日汇总表](dws/1d/trade/dws_trade_user_order_1d.sql)
 - [ ] [交易域用户粒度加购最近1日汇总表](dws/1d/trade/dws_trade_user_cart_add_1d.sql)
 - [ ] [交易域用户粒度支付最近1日汇总表](dws/1d/trade/dws_trade_user_payment_1d.sql)
-- [ ] [交易域省份粒度订单最近1日汇总表](dws/1d/trade/dws_trade_province_order_1d.sql)
 - [ ] [交易域用户粒度退单最近1日汇总表](dws/1d/trade/dws_trade_user_order_refund_1d.sql)
+- [ ] [交易域省份粒度订单最近1日汇总表](dws/1d/trade/dws_trade_province_order_1d.sql)
+
 
 - [ ] [流量域会话粒度页面浏览最近1日汇总表](dws/1d/traffic/dws_traffic_session_page_view_1d.sql)
 - [ ] [流量域访客页面粒度页面浏览最近1日汇总表](dws/1d/traffic/dws_traffic_page_visitor_page_view_1d.sql)
@@ -271,10 +272,10 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [ ] [交易域用户粒度订单最近n日汇总表](dws/nd/trade/dws_trade_user_order_nd.sql)
 - [ ] [交易域用户粒度加购最近n日汇总表](dws/nd/trade/dws_trade_user_cart_add_nd.sql)
 - [ ] [交易域用户粒度支付最近n日汇总表](dws/nd/trade/dws_trade_user_payment_nd.sql)
+- [ ] [交易域用户粒度退单最近n日汇总表](dws/nd/trade/dws_trade_user_order_refund_nd.sql)
 - [ ] [交易域省份粒度订单最近n日汇总表](dws/nd/trade/dws_trade_province_order_nd.sql)
 - [ ] [交易域优惠券粒度订单最近n日汇总表](dws/nd/trade/dws_trade_coupon_order_nd.sql)
 - [ ] [交易域活动粒度订单最近n日汇总表](dws/nd/trade/dws_trade_activity_order_nd.sql)
-- [ ] [交易域用户粒度退单最近n日汇总表](dws/nd/trade/dws_trade_user_order_refund_nd.sql)
   
 - [ ] [流量域访客页面粒度页面浏览最近n日汇总表](dws/nd/traffic/dws_traffic_page_visitor_page_view_nd.sql)
 

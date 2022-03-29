@@ -264,6 +264,11 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [ ] [流量域访客页面粒度页面浏览最近1日汇总表](dws/1d/traffic/dws_traffic_page_visitor_page_view_1d.sql)
 
 
+
+- [ ] [最近1日汇总表数据装载脚本](dws/1d/dwd_to_dws_1d_init.sh)
+
+
+
 ## [最近n日汇总表](dws/nd)
 
 

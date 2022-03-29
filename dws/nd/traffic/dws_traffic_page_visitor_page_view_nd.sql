@@ -1,4 +1,4 @@
--- 创建 交易域活动粒度订单最近n日汇总表
+-- 创建 流量域访客页面粒度页面浏览最近n日汇总表
 
 drop table if exists dws_traffic_page_visitor_page_view_nd;
 
@@ -20,7 +20,7 @@ create external table dws_traffic_page_visitor_page_view_nd
     tblproperties ('orc.compress' = 'snappy');
 
 
--- 每日装载 交易域活动粒度订单最近n日汇总表
+-- 每日装载 流量域访客页面粒度页面浏览最近n日汇总表
 
 insert overwrite table dws_traffic_page_visitor_page_view_nd
     partition (dt = '2020-06-14')
@@ -43,7 +43,7 @@ group by mid_id, brand, model, operate_system, page_id;
 
 show partitions dws_traffic_page_visitor_page_view_nd;
 
--- 查看 交易域活动粒度订单最近n日汇总表
+-- 查看 流量域访客页面粒度页面浏览最近n日汇总表
 
 select mid_id,
        brand,

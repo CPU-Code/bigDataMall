@@ -297,6 +297,9 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [ ] [用户域用户粒度登录历史至今汇总表](dws/td/user/dws_user_user_login_td.sql)
 
 
+- [ ] [历史至今汇总表数据装载脚本](dws/td/dws_1d_to_dws_td_init.sh)
+
+
 ----------------
 
 # [5 数据应用层](ads)

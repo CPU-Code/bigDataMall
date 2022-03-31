@@ -151,8 +151,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 - [x] [日志表](ods/log/ods_log_inc.sql)
 
-
-- [] [日志表每日数据装载](ods/hdfs_to_ods_log.sh)
+- [ ] [日志表每日数据装载](ods/hdfs_to_ods_log.sh)
 
 ## [1.2 全量表](ods/full)
 
@@ -190,6 +189,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [ ] [用户表](ods/inc/ods_user_info_inc.sql)
 
 
+- [ ] [业务数据每日数据装载](ods/hdfs_to_ods_db.sh)
 
 ----------------
 

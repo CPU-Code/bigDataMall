@@ -363,7 +363,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [ ] [各活动补贴率](ads_mysql/ads_activity_stats.sql)
 - [ ] [各优惠券补贴率](ads_mysql/ads_coupon_stats.sql)
 - [ ] [新增交易用户统计](ads_mysql/ads_new_buyer_stats.sql)
-
+- [ ] [各省份订单统计](ads_mysql/ads_order_by_province.sql)
 
 
 

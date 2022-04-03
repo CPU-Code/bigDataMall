@@ -367,7 +367,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [ ] [用户路径分析](ads_mysql/ads_page_path.sql)
 - [ ] [各品牌复购率](ads_mysql/ads_repeat_purchase_by_tm.sql)
 - [ ] [各品类商品购物车存量topN](ads_mysql/ads_sku_cart_num_top3_by_cate.sql)
-- [ ] [交易综合统计]()
+- [ ] [交易综合统计](ads_mysql/ads_trade_stats.sql)
 - [ ] [各品类商品交易统计]()
 - [ ] [各品牌商品交易统计]()
 - [ ] [各渠道流量统计]()

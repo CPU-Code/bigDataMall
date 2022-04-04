@@ -14,6 +14,5 @@ create table `ads_trade_stats`
     PRIMARY KEY (`dt`, `recent_days`) USING BTREE
 ) engine = InnoDB
   character set = utf8
-  collate = utf8_general_ci
-    comment = '交易统计'
+  collate = utf8_general_ci comment = '交易统计'
   row_format = Dynamic;

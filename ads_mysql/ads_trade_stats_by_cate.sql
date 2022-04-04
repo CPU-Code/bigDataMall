@@ -19,6 +19,5 @@ create table `ads_trade_stats_by_cate`
     PRIMARY KEY (`dt`, `recent_days`, `category1_id`, `category2_id`, `category3_id`) USING BTREE
 ) engine = InnoDB
   character set = utf8
-  collate = utf8_general_ci
-    comment = '各分类商品交易统计'
+  collate = utf8_general_ci comment = '各分类商品交易统计'
   row_format = Dynamic;

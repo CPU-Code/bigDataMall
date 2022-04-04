@@ -15,7 +15,6 @@ create table `ads_traffic_stats_by_channel`
     PRIMARY KEY (`dt`, `recent_days`, `channel`) USING BTREE
 ) engine = InnoDB
   character set = utf8
-  collate = utf8_general_ci
-    comment = '各渠道流量统计'
+  collate = utf8_general_ci comment = '各渠道流量统计'
   row_format = Dynamic;
 

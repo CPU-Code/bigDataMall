@@ -369,7 +369,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [x] [各品类商品购物车存量topN](ads_mysql/ads_sku_cart_num_top3_by_cate.sql)
 - [x] [交易综合统计](ads_mysql/ads_trade_stats.sql)
 - [x] [各品类商品交易统计](ads_mysql/ads_trade_stats_by_cate.sql)
-- [ ] [各品牌商品交易统计](ads_mysql/ads_trade_stats_by_tm.sql)
+- [x] [各品牌商品交易统计](ads_mysql/ads_trade_stats_by_tm.sql)
 - [ ] [各渠道流量统计](ads_mysql/ads_traffic_stats_by_channel.sql)
 - [ ] [用户行为漏斗分析](ads_mysql/ads_user_action.sql)
 - [ ] [用户留存率](ads_mysql/ads_user_retention.sql)

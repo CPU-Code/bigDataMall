@@ -373,7 +373,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [x] [各渠道流量统计](ads_mysql/ads_traffic_stats_by_channel.sql)
 - [x] [用户行为漏斗分析](ads_mysql/ads_user_action.sql)
 - [x] [用户留存率](ads_mysql/ads_user_retention.sql)
-- [ ] [用户新增活跃统计](ads_mysql/ads_user_stats.sql)
+- [x] [用户新增活跃统计](ads_mysql/ads_user_stats.sql)
 
 
 

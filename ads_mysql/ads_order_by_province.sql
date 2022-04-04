@@ -16,8 +16,7 @@ create table `ads_order_by_province`
     PRIMARY KEY (`dt`, `recent_days`, `province_id`) USING BTREE
 ) engine = InnoDB
   character set = utf8
-  collate = utf8_general_ci
-    comment = '各地区订单统计'
+  collate = utf8_general_ci comment = '各地区订单统计'
   row_format = Dynamic;
 
 

@@ -18,6 +18,5 @@ create table `ads_sku_cart_num_top3_by_cate`
     PRIMARY KEY (`dt`, `sku_id`, `category1_id`, `category2_id`, `category3_id`) USING BTREE
 ) engine = InnoDB
   character set = utf8
-  collate = utf8_general_ci
-    comment = '各分类商品购物车存量Top10'
+  collate = utf8_general_ci comment = '各分类商品购物车存量Top10'
   row_format = Dynamic;

@@ -12,8 +12,7 @@ create table `ads_repeat_purchase_by_tm`
     PRIMARY KEY (`dt`, `recent_days`, `tm_id`) USING BTREE
 ) engine = InnoDB
   character set = utf8
-  collate = utf8_general_ci
-    comment = '各品牌复购率统计'
+  collate = utf8_general_ci comment = '各品牌复购率统计'
   row_format = Dynamic;
 
 

@@ -371,8 +371,8 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [x] [各品类商品交易统计](ads_mysql/ads_trade_stats_by_cate.sql)
 - [x] [各品牌商品交易统计](ads_mysql/ads_trade_stats_by_tm.sql)
 - [x] [各渠道流量统计](ads_mysql/ads_traffic_stats_by_channel.sql)
-- [ ] [用户行为漏斗分析](ads_mysql/ads_user_action.sql)
-- [ ] [用户留存率](ads_mysql/ads_user_retention.sql)
+- [x] [用户行为漏斗分析](ads_mysql/ads_user_action.sql)
+- [x] [用户留存率](ads_mysql/ads_user_retention.sql)
 - [ ] [用户新增活跃统计](ads_mysql/ads_user_stats.sql)
 
 

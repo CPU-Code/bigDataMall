@@ -13,6 +13,5 @@ create table `ads_user_retention`
     PRIMARY KEY (`dt`, `create_date`, `retention_day`) USING BTREE
 ) engine = InnoDB
   character set = utf8
-  collate = utf8_general_ci
-    comment = '留存率'
+  collate = utf8_general_ci comment = '留存率'
   row_format = Dynamic;

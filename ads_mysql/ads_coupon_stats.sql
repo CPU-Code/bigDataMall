@@ -1,5 +1,3 @@
-
-
 -- 各优惠券补贴率
 
 drop table if exists `ads_coupon_stats`;

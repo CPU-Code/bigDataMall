@@ -1,4 +1,3 @@
-
 -- 用户行为漏斗分析
 
 drop table if exists `ads_user_action`;
@@ -15,6 +14,5 @@ create table `ads_user_action`
     PRIMARY KEY (`dt`, `recent_days`) USING BTREE
 ) engine = InnoDB
   character set = utf8
-  collate = utf8_general_ci
-    comment = '漏斗分析'
+  collate = utf8_general_ci comment = '漏斗分析'
   row_format = Dynamic;

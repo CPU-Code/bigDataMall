@@ -12,8 +12,7 @@ create table `ads_page_path`
     PRIMARY KEY (`dt`, `recent_days`, `source`, `target`) USING BTREE
 ) engine = InnoDB
   character set = utf8
-  collate = utf8_general_ci
-    comment = '页面浏览路径分析'
+  collate = utf8_general_ci comment = '页面浏览路径分析'
   row_format = Dynamic;
 
 

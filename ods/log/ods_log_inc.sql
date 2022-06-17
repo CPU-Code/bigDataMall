@@ -1,9 +1,9 @@
--- 删除表
+-- 删除日志表
 
 DROP TABLE IF EXISTS ods_log_inc;
 
 
--- 创建外部表
+-- 创建外部日志表
 
 CREATE EXTERNAL TABLE ods_log_inc
 (
@@ -24,15 +24,14 @@ CREATE EXTERNAL TABLE ods_log_inc
     LOCATION '/warehouse/gmall/ods/ods_log_inc/';
 
 
---- 转载数据
+--- 装载数据
 
-load data inpath '/origin_data/gmall/log/topic_log/2020-06-14'
+load data inpath '/origin_data/gmall/log/topic_log/2020-06-15'
     into table ods_log_inc
-    partition (dt = '2020-06-14');
+    partition (dt = '2020-06-15');
 
 
---- 查询数据
-
+-- 查询数据
 
 select common,
        page,
@@ -43,6 +42,6 @@ select common,
        ts,
        dt
 from ods_log_inc
-where dt = '2020-06-14'
+where dt = '2020-06-14';
 
 

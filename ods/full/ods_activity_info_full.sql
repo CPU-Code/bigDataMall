@@ -20,6 +20,16 @@ CREATE EXTERNAL TABLE ods_activity_info_full
     LOCATION '/warehouse/gmall/ods/ods_activity_info_full/';
 
 
+
+
+-- 装载数据
+
+load data inpath '/origin_data/gmall/db/activity_info_full/2020-06-14'
+    into table ods_activity_info_full
+    partition (dt = '2020-06-14');
+
+
+
 -- 查询 活动信息表
 
 select id,

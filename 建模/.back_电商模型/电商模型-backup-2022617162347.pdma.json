@@ -4,7 +4,7 @@
   "avatar": "",
   "version": "4.1.1",
   "createdTime": "2022-6-17 11:01:26",
-  "updatedTime": "2022-6-17 11:03:45",
+  "updatedTime": "2022-6-17 16:23:40",
   "dbConns": [],
   "profile": {
     "default": {
@@ -401,63 +401,78 @@
     "headers": [
       {
         "refKey": "defKey",
-        "hideInGraph": false
+        "hideInGraph": false,
+        "value": "字段代码"
       },
       {
         "refKey": "defName",
-        "hideInGraph": false
+        "hideInGraph": false,
+        "value": "显示名称"
       },
       {
         "refKey": "primaryKey",
-        "hideInGraph": false
+        "hideInGraph": true,
+        "value": "主键"
       },
       {
         "refKey": "notNull",
-        "hideInGraph": true
+        "hideInGraph": true,
+        "value": "不为空"
       },
       {
         "refKey": "autoIncrement",
-        "hideInGraph": true
+        "hideInGraph": true,
+        "value": "自增"
       },
       {
         "refKey": "domain",
-        "hideInGraph": true
+        "hideInGraph": true,
+        "value": "数据域"
       },
       {
         "refKey": "type",
-        "hideInGraph": false
+        "hideInGraph": true,
+        "value": "数据类型"
       },
       {
         "refKey": "len",
-        "hideInGraph": false
+        "hideInGraph": true,
+        "value": "长度"
       },
       {
         "refKey": "scale",
-        "hideInGraph": false
+        "hideInGraph": true,
+        "value": "小数位数"
       },
       {
         "refKey": "comment",
-        "hideInGraph": true
+        "hideInGraph": true,
+        "value": "说明"
       },
       {
         "refKey": "refDict",
-        "hideInGraph": true
+        "hideInGraph": true,
+        "value": "数据字典"
       },
       {
         "refKey": "defaultValue",
-        "hideInGraph": true
+        "hideInGraph": true,
+        "value": "默认值"
       },
       {
         "refKey": "isStandard",
-        "hideInGraph": false
+        "hideInGraph": true,
+        "value": "标准字段"
       },
       {
         "refKey": "uiHint",
-        "hideInGraph": true
+        "hideInGraph": true,
+        "value": "UI建议"
       },
       {
         "refKey": "extProps",
-        "hideInGraph": true
+        "hideInGraph": true,
+        "value": "拓展属性"
       }
     ]
   },
@@ -630,17 +645,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -660,7 +675,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -860,17 +875,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -890,7 +905,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1022,17 +1037,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1052,7 +1067,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1184,17 +1199,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1214,7 +1229,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1329,17 +1344,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1359,7 +1374,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1457,17 +1472,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1487,7 +1502,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1602,17 +1617,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1632,7 +1647,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1747,17 +1762,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1777,7 +1792,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1926,17 +1941,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -1956,7 +1971,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -2071,17 +2086,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -2101,7 +2116,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -2267,17 +2282,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -2297,7 +2312,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -2395,17 +2410,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -2425,7 +2440,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -2523,17 +2538,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -2553,7 +2568,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -2668,17 +2683,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -2698,7 +2713,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -3000,17 +3015,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -3030,7 +3045,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -3179,17 +3194,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -3209,7 +3224,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -3460,17 +3475,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -3490,7 +3505,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -3843,17 +3858,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -3873,7 +3888,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -4005,17 +4020,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -4035,7 +4050,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -4269,17 +4284,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -4299,7 +4314,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -4482,17 +4497,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -4512,7 +4527,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -4695,17 +4710,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -4725,7 +4740,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -5010,17 +5025,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -5040,7 +5055,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -5223,17 +5238,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -5253,7 +5268,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -5436,17 +5451,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -5466,7 +5481,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -5955,17 +5970,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -5985,7 +6000,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -6236,17 +6251,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -6266,7 +6281,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -6398,17 +6413,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -6428,7 +6443,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -6696,17 +6711,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -6726,7 +6741,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -7023,17 +7038,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -7053,7 +7068,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -7372,17 +7387,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -7402,7 +7417,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -7568,17 +7583,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -7598,7 +7613,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -7764,17 +7779,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -7794,7 +7809,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -8045,17 +8060,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -8075,7 +8090,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -8258,17 +8273,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -8288,7 +8303,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -8420,17 +8435,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -8450,7 +8465,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -8599,17 +8614,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -8629,7 +8644,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -8812,17 +8827,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -8842,7 +8857,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -8974,17 +8989,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -9004,7 +9019,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -9153,17 +9168,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -9183,7 +9198,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -9366,17 +9381,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -9396,7 +9411,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -9698,17 +9713,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -9728,7 +9743,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -9860,17 +9875,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -9890,7 +9905,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -10175,17 +10190,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -10205,7 +10220,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -10371,17 +10386,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -10401,7 +10416,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -10567,17 +10582,17 @@
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -10597,7 +10612,7 @@
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
@@ -10984,7 +10999,23 @@
       "id": "9E7C9788-B805-4C7D-8531-FD1D9DC79B05"
     }
   ],
-  "viewGroups": [],
+  "viewGroups": [
+    {
+      "defKey": "活动",
+      "defName": "",
+      "refEntities": [
+        "1786A921-9122-4526-B48D-A0B7FFCFD509",
+        "0667E0C9-032C-4E07-82A6-CC7F26D3A3F7",
+        "B7A4BB38-57B0-4146-BE0F-D25E065BF775"
+      ],
+      "refViews": [],
+      "refDiagrams": [
+        "3F8D1E0A-6992-43AF-AFC2-81FDF11189C9"
+      ],
+      "refDicts": [],
+      "id": "23A2714C-1002-4A10-954F-81FDAE85A035"
+    }
+  ],
   "dataTypeMapping": {
     "referURL": "",
     "mappings": [
@@ -11213,8 +11244,28 @@
       "defKey": "关系图",
       "defName": "",
       "relationType": "field",
-      "canvasData": {},
+      "canvasData": {
+        "cells": [
+          {
+            "id": "76c8661d-7429-4b32-83e8-f13c70195bab",
+            "shape": "table",
+            "position": {
+              "x": 50,
+              "y": 150
+            },
+            "count": 0,
+            "originKey": "1786A921-9122-4526-B48D-A0B7FFCFD509"
+          }
+        ]
+      },
       "id": "E96B1086-06BF-418E-8B8E-E948BB072AA6"
+    },
+    {
+      "defKey": "活动关系图",
+      "defName": "",
+      "relationType": "field",
+      "canvasData": {},
+      "id": "3F8D1E0A-6992-43AF-AFC2-81FDF11189C9"
     }
   ],
   "standardFields": [

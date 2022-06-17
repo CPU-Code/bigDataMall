@@ -4,7 +4,7 @@
   "avatar": "",
   "version": "4.1.1",
   "createdTime": "2022-6-17 11:01:26",
-  "updatedTime": "2022-6-17 16:38:40",
+  "updatedTime": "2022-6-17 16:23:47",
   "dbConns": [],
   "profile": {
     "default": {
@@ -608,164 +608,84 @@
       "nameTemplate": "{defKey}[{defName}]",
       "headers": [
         {
-          "freeze": true,
+          "freeze": false,
           "refKey": "hideInGraph",
-          "hideInGraph": true,
-          "code": "relationNoShow",
-          "value": "关系图",
-          "newCode": "hideInGraph",
-          "com": "Icon",
-          "relationNoShow": true
+          "hideInGraph": true
         },
         {
           "freeze": true,
           "refKey": "defKey",
-          "hideInGraph": false,
-          "code": "name",
-          "value": "字段代码",
-          "newCode": "defKey",
-          "com": "Input",
-          "relationNoShow": false
+          "hideInGraph": false
         },
         {
           "freeze": true,
           "refKey": "defName",
-          "hideInGraph": false,
-          "code": "chnname",
-          "value": "显示名称",
-          "newCode": "defName",
-          "com": "Input",
-          "relationNoShow": false
+          "hideInGraph": false
         },
         {
           "freeze": false,
           "refKey": "primaryKey",
-          "hideInGraph": true,
-          "code": "pk",
-          "value": "主键",
-          "newCode": "primaryKey",
-          "com": "Checkbox",
-          "relationNoShow": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "notNull",
-          "hideInGraph": true,
-          "code": "notNull",
-          "value": "不为空",
-          "newCode": "notNull",
-          "com": "Checkbox",
-          "relationNoShow": true
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "autoIncrement",
-          "hideInGraph": true,
-          "code": "autoIncrement",
-          "value": "自增",
-          "newCode": "autoIncrement",
-          "com": "Checkbox",
-          "relationNoShow": true
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "domain",
-          "hideInGraph": true,
-          "code": "type",
-          "value": "数据域",
-          "newCode": "domain",
-          "com": "Select",
-          "relationNoShow": true
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "type",
-          "hideInGraph": true,
-          "code": "dataType",
-          "value": "数据类型",
-          "newCode": "type",
-          "com": "Text",
-          "relationNoShow": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "len",
-          "hideInGraph": true,
-          "code": "len",
-          "value": "长度",
-          "newCode": "len",
-          "com": "Input",
-          "relationNoShow": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "scale",
-          "hideInGraph": true,
-          "code": "scale",
-          "value": "小数位数",
-          "newCode": "scale",
-          "com": "Input",
-          "relationNoShow": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "comment",
-          "hideInGraph": true,
-          "code": "remark",
-          "value": "说明",
-          "newCode": "comment",
-          "com": "Input",
-          "relationNoShow": true
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "refDict",
-          "hideInGraph": true,
-          "code": "refDict",
-          "value": "数据字典",
-          "newCode": "refDict",
-          "com": "SearchSelect",
-          "relationNoShow": true
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "defaultValue",
-          "hideInGraph": true,
-          "code": "defaultValue",
-          "value": "默认值",
-          "newCode": "defaultValue",
-          "com": "Input",
-          "relationNoShow": true
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "isStandard",
-          "hideInGraph": true,
-          "code": "isStandard",
-          "value": "标准字段",
-          "newCode": "isStandard",
-          "com": "label",
-          "relationNoShow": false
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "uiHint",
-          "hideInGraph": true,
-          "code": "uiHint",
-          "value": "UI建议",
-          "newCode": "uiHint",
-          "com": "Select",
-          "relationNoShow": true
+          "hideInGraph": true
         },
         {
           "freeze": false,
           "refKey": "extProps",
-          "hideInGraph": true,
-          "code": "extProps",
-          "value": "拓展属性",
-          "newCode": "extProps",
-          "com": "linkButton",
-          "relationNoShow": true
+          "hideInGraph": true
         }
       ],
       "correlations": []
@@ -789,7 +709,7 @@
           "notNull": true,
           "autoIncrement": true,
           "defaultValue": "",
-          "hideInGraph": true,
+          "hideInGraph": false,
           "refDict": "",
           "id": "DB080A70-EE81-41DD-B811-AFD4981EA663",
           "extProps": {}
@@ -998,16 +918,7 @@
           "hideInGraph": true
         }
       ],
-      "correlations": [
-        {
-          "myField": "615CE068-B70D-414F-9B4E-F3BEDE87F816",
-          "refEntity": "1786A921-9122-4526-B48D-A0B7FFCFD509",
-          "refField": "BBAE0232-5A45-4A21-9725-5EB37C2F66C1",
-          "myRows": "n",
-          "refRows": "1",
-          "innerType": ""
-        }
-      ]
+      "correlations": []
     },
     {
       "id": "B7A4BB38-57B0-4146-BE0F-D25E065BF775",
@@ -11117,9 +11028,7 @@
         "1C17D34E-2849-4EF3-B7FF-33E26A64DD0B"
       ],
       "refViews": [],
-      "refDiagrams": [
-        "E16E0330-066C-4544-BCEE-17E160BFD63D"
-      ],
+      "refDiagrams": [],
       "refDicts": [],
       "id": "8C07E81D-FC79-4A88-B4F4-E7373695818F"
     }
@@ -11355,52 +11264,14 @@
       "canvasData": {
         "cells": [
           {
-            "id": "230261f6-1e28-4a24-a908-e11ae55b0a61",
-            "shape": "erdRelation",
-            "source": {
-              "cell": "76c8661d-7429-4b32-83e8-f13c70195bab",
-              "port": "BBAE0232-5A45-4A21-9725-5EB37C2F66C1%out"
-            },
-            "target": {
-              "cell": "4b2e3c7a-802a-4231-b049-0881085a0c7d",
-              "port": "615CE068-B70D-414F-9B4E-F3BEDE87F816%in"
-            },
-            "relation": "1:n",
-            "vertices": [],
-            "labels": [
-              {
-                "attrs": {
-                  "text": {
-                    "text": ""
-                  },
-                  "rect": {}
-                }
-              }
-            ],
-            "fillColor": "#1d2022",
-            "router": {
-              "name": "manhattan"
-            }
-          },
-          {
             "id": "76c8661d-7429-4b32-83e8-f13c70195bab",
             "shape": "table",
             "position": {
-              "x": -100,
-              "y": -17
+              "x": 50,
+              "y": 150
             },
             "count": 0,
             "originKey": "1786A921-9122-4526-B48D-A0B7FFCFD509"
-          },
-          {
-            "id": "4b2e3c7a-802a-4231-b049-0881085a0c7d",
-            "shape": "table",
-            "position": {
-              "x": 160,
-              "y": -40
-            },
-            "count": 0,
-            "originKey": "0667E0C9-032C-4E07-82A6-CC7F26D3A3F7"
           }
         ]
       },
@@ -11410,40 +11281,7 @@
       "defKey": "活动关系图",
       "defName": "",
       "relationType": "field",
-      "canvasData": {
-        "cells": [
-          {
-            "id": "6a15e826-61e7-420e-ae70-82d2e9020ce3",
-            "shape": "table",
-            "position": {
-              "x": 170,
-              "y": 180
-            },
-            "count": 0,
-            "originKey": "1786A921-9122-4526-B48D-A0B7FFCFD509"
-          },
-          {
-            "id": "2fd9f0bd-d6c6-4bed-9bf7-343770e0cd75",
-            "shape": "table",
-            "position": {
-              "x": 600,
-              "y": 20
-            },
-            "count": 0,
-            "originKey": "B7A4BB38-57B0-4146-BE0F-D25E065BF775"
-          },
-          {
-            "id": "81871585-0cc9-446d-9d6d-ba58dff7615f",
-            "shape": "table",
-            "position": {
-              "x": 170,
-              "y": -110
-            },
-            "count": 0,
-            "originKey": "0667E0C9-032C-4E07-82A6-CC7F26D3A3F7"
-          }
-        ]
-      },
+      "canvasData": {},
       "id": "3F8D1E0A-6992-43AF-AFC2-81FDF11189C9"
     },
     {
@@ -11451,7 +11289,7 @@
       "defName": "",
       "relationType": "field",
       "canvasData": {},
-      "id": "E16E0330-066C-4544-BCEE-17E160BFD63D"
+      "id": "E9663636-9B7A-4351-8EFD-0BE4B5225AA9"
     }
   ],
   "standardFields": [

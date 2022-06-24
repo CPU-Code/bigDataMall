@@ -378,5 +378,47 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 
 
+----------------------------------------
+
+## lg 离线数仓
+
+
+
+
+仓库分层规划 : 
+
+* ods : 原始数据层
+* dim : 公共维度层
+* dwd : 明细数据层
+* dws : 汇总数据层
+* ads : 数据应用层
+
+
+
+
+### [ods](lg_mall/ods)
+
+
+- [x] [用户启动日志](lg_mall/ods/ods_start_log.sql)
+
+
+
+
+### [dim](lg_mall/dim)
+
+
+
+### [dwd](lg_mall/dwd)
+
+
+### [dws](lg_mall/dws)
+
+
+
+### [ads](lg_mall/ads)
+
+
+
+### [test](lg_mall/test)
 
 

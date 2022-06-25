@@ -4,14 +4,14 @@ drop table if exists dws_member_start_day;
 -- 创建 用户日启动汇总
 create table dws_member_start_day
 (
-    `device_id` string,
-    `uid`       string,
-    `app_v`     string,
-    `os_type`   string,
-    `language`  string,
-    `channel`   string,
-    `area`      string,
-    `brand`     string
+    `device_id` string comment '设备id',
+    `uid`       string comment '用户id',
+    `app_v`     string comment 'app版本',
+    `os_type`   string comment '系统版本',
+    `language`  string comment '语言',
+    `channel`   string comment '渠道',
+    `area`      string comment '地区',
+    `brand`     string comment '品牌'
 ) comment '用户日启动汇总'
     partitioned by (`dt` string)
     stored as parquet;

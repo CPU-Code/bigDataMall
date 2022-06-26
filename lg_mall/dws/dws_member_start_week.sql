@@ -30,7 +30,7 @@ select device_id,
        concat_ws('|', collect_set(channel)),
        concat_ws('|', collect_set(area)),
        concat_ws('|', collect_set(brand)),
-       date_add(next_day('$do_date', 'mo'), -7)
+       date_add(next_day('2020-07-21', 'mo'), -7)
 from dws_member_start_day
 where dt >= date_add(next_day('2020-07-21', 'mo'), -7)
   and dt <= '2020-07-21'
@@ -46,6 +46,7 @@ select device_id,
        channel,
        area,
        brand,
+       week,
        dt
-from dws_member_start_day
+from dws_member_start_week
 where dt = '2020-07-21';

@@ -29,7 +29,7 @@ select device_id,
        concat_ws('|', collect_set(channel)),
        concat_ws('|', collect_set(area)),
        concat_ws('|', collect_set(brand)),
-       date_format('$do_date', 'yyyy-MM')
+       date_format('2020-07-21', 'yyyy-MM')
 from dws_member_start_day
 where dt >= date_format('2020-07-21', 'yyyy-MM-01')
   and dt <= '2020-07-21'
@@ -44,6 +44,7 @@ select device_id,
        channel,
        area,
        brand,
+       month,
        dt
-from dws_member_start_day
+from dws_member_start_month
 where dt = '2020-07-21';

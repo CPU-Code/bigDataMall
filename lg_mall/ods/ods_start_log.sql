@@ -12,10 +12,10 @@ create external table ods_start_log
 
 -- 加载数据
 alter table ods_start_log
-    add partition (dt = '2020-07-21');
+    add partition (dt = '2020-07-22');
 
 
 select str,
        dt
 from ods_start_log
-where dt = '2020-07-21';
+where dt = '2020-07-22';

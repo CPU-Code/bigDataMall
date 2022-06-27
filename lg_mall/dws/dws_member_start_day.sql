@@ -19,7 +19,7 @@ create table dws_member_start_day
 -- 装载数据
 set hive.execution.engine = spark;
 insert overwrite table dws_member_start_day
-    partition (dt = '2020-07-21')
+    partition (dt = '2020-07-22')
 select device_id,
        concat_ws('|', collect_set(uid)),
        concat_ws('|', collect_set(app_v)),
@@ -29,7 +29,7 @@ select device_id,
        concat_ws('|', collect_set(area)),
        concat_ws('|', collect_set(brand))
 from dwd_start_log
-where dt = '2020-07-21'
+where dt = '2020-07-22'
 group by device_id;
 
 -- 查询数据
@@ -43,5 +43,5 @@ select device_id,
        brand,
        dt
 from dws_member_start_day
-where dt = '2020-07-21';
+where dt = '2020-07-22';
 

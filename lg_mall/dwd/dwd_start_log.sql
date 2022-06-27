@@ -26,7 +26,7 @@ set hive.execution.engine = spark;
 with tmp as (
     select split(str, ' ')[7] line
     from ods_start_log
-    where dt = '2020-07-21'
+    where dt = '2020-07-22'
 )
 insert
 overwrite
@@ -34,7 +34,7 @@ table
 dwd_start_log
 partition
 (
-dt = '2020-07-21'
+dt = '2020-07-22'
 )
 select get_json_object(line, '$.attr.device_id'),
        get_json_object(line, '$.attr.area'),

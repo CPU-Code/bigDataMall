@@ -12,10 +12,10 @@ create table ads_new_member_cnt
 -- 装载数据
 
 insert overwrite table ads_new_member_cnt
-    partition (dt = '2020-07-21')
+    partition (dt = '2020-07-22')
 select count(1)
 from dws_member_add_day
-where dt = '2020-07-21';
+where dt = '2020-07-22';
 
 
 -- 查询数据
@@ -23,4 +23,4 @@ where dt = '2020-07-21';
 select cnt,
        dt
 from ads_new_member_cnt
-where dt = '2020-07-21';
+where dt = '2020-07-22';

@@ -11,13 +11,29 @@ create table ads_ad_show_rate
     row format delimited fields terminated by ',';
 
 
+-------------------------------
+
+
 -- 装载数据
 
+-- 行转列 一
 set hive.execution.engine = spark;
 set hivevar:do_date = 2020-07-21;
 select max(case when ad_action = '0' then cnt end) show_cnt,
        max(case when ad_action = '1' then cnt end) click_cnt,
        max(case when ad_action = '2' then cnt end) buy_cnt,
+       hour
+from ads_ad_show
+where dt = '${do_date}'
+group by hour
+limit 10;
+
+-- 行转列 二
+set hive.execution.engine = spark;
+set hivevar:do_date = 2020-07-21;
+select sum(case when ad_action = '0' then cnt end) show_cnt,
+       sum(case when ad_action = '1' then cnt end) click_cnt,
+       sum(case when ad_action = '2' then cnt end) buy_cnt,
        hour
 from ads_ad_show
 where dt = '${do_date}'
@@ -49,6 +65,8 @@ select hour,
        buy_cnt / click_cnt  as buy_rate
 from tmp;
 
+
+-------------------------------
 
 -- 查询数据
 select hour,

@@ -15,11 +15,15 @@ create external table ods_coupon_use_inc
     location '/warehouse/gmall/ods/ods_coupon_use_inc/';
 
 -- 转载数据
-load data inpath '/origin_data/gmall/db/coupon_use_inc/2020-06-14'
+set hivevar:do_date = 2020-06-14;
+load data inpath '/origin_data/gmall/db/coupon_use_inc/${do_date}'
     into table ods_coupon_use_inc
-    partition (dt = '2020-06-14');
+    partition (dt = '${do_date}');
+
 
 -- 查询数据
+set hive.execution.engine = spark;
+set hivevar:do_date = 2020-06-14;
 select type,
        ts,
        data.id,
@@ -32,6 +36,15 @@ select type,
        data.used_time,
        data.expire_time,
        old,
+       old['id'] as old_id,
+       old['coupon_id'] as old_coupon_id,
+       old['user_id'] as old_user_id,
+       old['order_id'] as old_order_id,
+       old['coupon_status'] as old_coupon_status,
+       old['get_time'] as old_get_time,
+       old['using_time'] as old_using_time,
+       old['used_time'] as old_used_time,
+       old['expire_time'] as old_expire_time,
        dt
 from ods_coupon_use_inc
-where dt = '2020-06-14';
+where dt = '${do_date}';

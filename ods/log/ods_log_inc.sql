@@ -32,16 +32,43 @@ load data inpath '/origin_data/gmall/log/topic_log/2020-06-15'
 
 
 -- 查询数据
-
-select common,
-       page,
-       actions,
-       displays,
-       `start`,
-       err,
+set hive.execution.engine = spark;
+select common.ar         as area_code,
+       common.ba         as brand,
+       common.ch         as channel,
+       common.is_new,
+       common.md         as model,
+       common.mid        as mid_id,
+       common.os         as operate_system,
+       common.uid        as user_id,
+       common.vc         as version_code,
+       page.during_time,
+       page.item         as page_item,
+       page.item_type    as page_item_type,
+       page.last_page_id,
+       page.page_id,
+       page.source_type,
+       action.action_id,
+       action.item,
+       action.item_type,
+       action.ts,
+       display.display_type,
+       display.item      as display_item,
+       display.item_type as display_item_type,
+       display.`order`   as display_order,
+       display.pos_id    as display_pos_id,
+       action.action_id as action_id,
+       `start`.entry,
+       `start`.loading_time,
+       `start`.open_ad_id ,
+       `start`.open_ad_ms,
+       `start`.open_ad_skip_ms,
+       err.error_code,
+       err.msg,
        ts,
        dt
-from ods_log_inc
-where dt = '2020-06-14';
-
-
+from ods_log_inc lateral view explode(displays) tem as display
+         lateral view explode(actions) tem as action
+where dt = '2020-06-14'
+  and actions is not null
+limit 10;

@@ -1,25 +1,22 @@
 -- 删除 活动信息表
-
-DROP TABLE IF EXISTS ods_activity_info_full;
+drop table if exists ods_activity_info_full;
 
 -- 创建外部 活动信息表
 
-CREATE EXTERNAL TABLE ods_activity_info_full
+create external table ods_activity_info_full
 (
-    `id`            STRING COMMENT '活动id',
-    `activity_name` STRING COMMENT '活动名称',
-    `activity_type` STRING COMMENT '活动类型',
-    `activity_desc` STRING COMMENT '活动描述',
-    `start_time`    STRING COMMENT '开始时间',
-    `end_time`      STRING COMMENT '结束时间',
-    `create_time`   STRING COMMENT '创建时间'
-) COMMENT '活动信息表'
-    PARTITIONED BY (`dt` STRING)
-    ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
-        NULL DEFINED AS ''
-    LOCATION '/warehouse/gmall/ods/ods_activity_info_full/';
-
-
+    `id`            string comment '活动id',
+    `activity_name` string comment '活动名称',
+    `activity_type` string comment '活动类型',
+    `activity_desc` string comment '活动描述',
+    `start_time`    string comment '开始时间',
+    `end_time`      string comment '结束时间',
+    `create_time`   string comment '创建时间'
+) comment '活动信息表'
+    partitioned by (`dt` string)
+    row format delimited fields terminated by '\t'
+        null defined as ''
+    location '/warehouse/gmall/ods/ods_activity_info_full/';
 
 
 -- 装载数据
@@ -27,7 +24,6 @@ CREATE EXTERNAL TABLE ods_activity_info_full
 load data inpath '/origin_data/gmall/db/activity_info_full/2020-06-14'
     into table ods_activity_info_full
     partition (dt = '2020-06-14');
-
 
 
 -- 查询 活动信息表

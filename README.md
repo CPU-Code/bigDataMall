@@ -400,8 +400,8 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 
 - [x] [用户启动日志](lg_mall/ods/ods_start_log.sql)
-
-
+- [x] [订单表](lg_mall/ods/ods_trade_orders.sql)
+- [x] [订单明细表](lg_mall/ods/ods_trade_order_product.sql)
 
 
 ### [dim](lg_mall/dim)
@@ -420,5 +420,8 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 
 ### [test](lg_mall/test)
+
+- [x] [json内置函数处理](lg_mall/test/jsont1.sql)
+- [x] [SerDe处理](lg_mall/test/jsont2.sql)
 
 

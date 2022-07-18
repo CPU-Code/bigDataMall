@@ -412,6 +412,7 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 
 ### [dim](lg_mall/dim)
 
+- [x] [商品分类表](lg_mall/dim/dim_trade_product_cat.sql)
 
 
 ### [dwd](lg_mall/dwd)

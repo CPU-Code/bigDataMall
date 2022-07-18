@@ -405,6 +405,9 @@ CSDN : [https://blog.csdn.net/qq_44226094/category_11631933.html?spm=1001.2014.3
 - [x] [产品信息表](lg_mall/ods/ods_trade_product_info.sql)
 - [x] [产品分类表](lg_mall/ods/ods_trade_product_category.sql)
 - [x] [商家店铺表](lg_mall/ods/ods_trade_shops.sql)
+- [x] [商家地域组织表](lg_mall/ods/ods_trade_shop_admin_org.sql)
+- [x] [支付方式表](lg_mall/ods/ods_trade_payments.sql)
+
 
 
 ### [dim](lg_mall/dim)

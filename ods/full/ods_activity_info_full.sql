@@ -37,5 +37,5 @@ select id,
        create_time,
        dt
 from ods_activity_info_full
-where dt = '2020-06-14'
+where dt = '2020-06-14';
 
